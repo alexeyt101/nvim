@@ -1,0 +1,7 @@
+{
+    "snippets.userSnippetsDirectory": "~/.config/nvim/snippets",
+    "suggest.autoTrigger": "trigger",
+    "suggest.noselect": false,
+    "suggest.enablePreselect": true,
+    "suggest.selection": "first"
+}
