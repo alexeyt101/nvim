@@ -32,7 +32,11 @@ Plug 'preservim/nerdcommenter'
 Plug 'iamcco/markdown-preview.nvim', {'do': 'cd app && npm install'}
 
 " color schemas
+Plug 'xiyaowong/nvim-transparent'
 Plug 'morhetz/gruvbox'  " colorscheme gruvbox
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'EdenEast/nightfox.nvim' 
+Plug 'danilo-augusto/vim-afterglow'
 
 " Linters and fixers
 Plug 'dense-analysis/ale'

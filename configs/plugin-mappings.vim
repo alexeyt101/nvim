@@ -7,9 +7,9 @@ nmap <M-s> <Plug>MarkdownPreviewStop
 nmap <C-p> <Plug>MarkdownPreviewToggle
 " Tagbar bindings
 "nnoremap <leader>e :TagbarToggle<CR>
-nnoremap <silent> <leader>e :TagbarToggle<CR>
+nnoremap <silent> <Leader>e :TagbarOpen [j]<CR>
 " NERDTree binds
-nnoremap <Leader>q :NERDTreeToggle<CR>
+nnoremap <Leader>q :NERDTreeFocus<CR>
 "COC
 "main commands
 nmap <silent>gd <Plug>(coc-definition)
