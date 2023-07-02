@@ -14,7 +14,10 @@ let g:gruvbox_contrast_dark="medium"
 " Tagbar settings
 let g:tagbar_autofocus = 1 
 let g:tagbar_sort = 0
- 
+
+" NERDCommenter
+let g:NERDDefaultAlign = 'left'
+
 " Netrw file explorer settings
 let g:netrw_banner = 0 "hide banner above files
 let g:netrw_liststyle = 3 "tree  instead of plain view
