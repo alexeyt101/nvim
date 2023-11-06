@@ -41,4 +41,7 @@ Plug 'danilo-augusto/vim-afterglow'
 " Linters and fixers
 Plug 'dense-analysis/ale'
 
+" Python syntax highlights
+Plug 'vim-python/python-syntax'
+
 call plug#end()
