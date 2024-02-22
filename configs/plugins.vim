@@ -6,7 +6,7 @@ Plug 'https://github.com/vim-airline/vim-airline' " Status bar
 
 " Telescope
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim', {'tag': '0.1.0'}
+Plug 'nvim-telescope/telescope.nvim', {'tag': '0.1.4'}
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 
 " AutoPairs
