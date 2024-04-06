@@ -1,5 +1,5 @@
 " Coc
-let g:python3_host_prog="/Users/a.pakhomov/.pyenv/shims/python3"
+let g:python3_host_prog="/home/alex/.pyenv/shims/python"
 
 " ColorSchemes variables
 " Transparent background 

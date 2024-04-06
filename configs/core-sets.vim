@@ -11,4 +11,5 @@ set shiftwidth=4
 set expandtab
 set autoindent
 set fileformat=unix
+set clipboard+=unnamedplus
 filetype indent on

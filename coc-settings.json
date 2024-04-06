@@ -3,5 +3,6 @@
     "suggest.autoTrigger": "trigger",
     "suggest.noselect": false,
     "suggest.enablePreselect": true,
-    "suggest.selection": "first"
+    "suggest.selection": "first",
+    "snippets.ultisnips.pythonPrompt": false
 }
