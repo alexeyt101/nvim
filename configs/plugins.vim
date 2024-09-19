@@ -6,8 +6,8 @@ Plug 'https://github.com/vim-airline/vim-airline' " Status bar
 
 " Telescope
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim', {'tag': '0.1.4'}
-Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
+Plug 'nvim-telescope/telescope.nvim', {'tag': '0.1.8'}
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release' }
 
 " AutoPairs
 Plug 'jiangmiao/auto-pairs'
@@ -29,7 +29,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'preservim/nerdcommenter'
 
 " markdown preview
-Plug 'iamcco/markdown-preview.nvim', {'do': 'cd app && npm install'}
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
 
 " color schemas
 Plug 'xiyaowong/nvim-transparent'
@@ -43,5 +43,8 @@ Plug 'dense-analysis/ale'
 
 " Python syntax highlights
 Plug 'vim-python/python-syntax'
+
+" OpenAPI preview пока не заработал, скорее-всего не хватает зависимостей
+"Plug 'xavierchow/vim-swagger-preview'
 
 call plug#end()
