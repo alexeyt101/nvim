@@ -4,5 +4,8 @@
     "suggest.noselect": false,
     "suggest.enablePreselect": true,
     "suggest.selection": "first",
-    "snippets.ultisnips.pythonPrompt": false
+    "snippets.ultisnips.pythonPrompt": false,
+    "pyright.inlayHints.functionReturnTypes": false,
+    "pyright.inlayHints.variableTypes": false,
+    "pyright.inlayHints.parameterTypes": false
 }

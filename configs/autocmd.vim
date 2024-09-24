@@ -17,6 +17,6 @@ autocmd BufWinEnter * if getcmdwintype() == '' | silent NERDTreeMirror | endif
 " Trip whitespace in the end of python files
 autocmd BufWritePre *.py :call TrimTrailingWhitespace()
 " don't add eol to the end of python files
-autocmd FileType python setlocal nofixendofline noeol
+autocmd FileType py setlocal noeol binary
 " AutoPairs processing of f-strings and etc
-autocmd FileType python let b:AutoPairs = AutoPairsDefine({"f'" : "'", "r'" : "'", "b'" : "'"})
+autocmd FileType py let b:AutoPairs = AutoPairsDefine({"f'" : "'", "r'" : "'", "b'" : "'"})
